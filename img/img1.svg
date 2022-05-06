@@ -471,7 +471,7 @@
 
 
 <style>
-.cl1 {
+<!-- .cl1 {
     animation: ratate 8s infinite;
     -webkit-animation: ratate 8s infinite;
         transform-origin: 105px 380px;
@@ -653,7 +653,7 @@
     100% {
        transform: translateY(0);
     }
-}
+} -->
 
 </style>
 </svg>
