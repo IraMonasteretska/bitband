@@ -41,9 +41,17 @@ $(document).ready(function () {
     });
 
 
-    // TEST
+    // footer slider
 
-
+    $('.footertext-slider').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 600,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        variableWidth: true
+    });
 
 
 
