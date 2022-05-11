@@ -54,10 +54,27 @@ $(document).ready(function () {
     });
 
 
+    if ($('.partners__box').length > 6) {
+        $('.partners .orangelink').css('display', 'inline-block');
+    }
+    if ($('.benefits__box').length > 6) {
+        $('.benefits .orangelink').css('display', 'inline-block');
+    }
 
+    // reviews slider
 
+    $('.reviewslider').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 600,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true,
 
-
+    });
 
 
 
