@@ -78,7 +78,11 @@ $(document).ready(function () {
 
 
 
+    // Customers
 
+    $('.customers__sidebar-listbox .title').click(function(){
+        $(this).next('.customers__sidebar-list').slideToggle();
+    });
 
 
 
